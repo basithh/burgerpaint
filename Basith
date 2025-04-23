@@ -1,0 +1,758 @@
+Proxy AI & CodeGPT Power Tips for IntelliJ Developers
+
+This article is a hands-on field guide for developers looking to amplify productivity inside IntelliJ IDEs using Proxy AI and CodeGPT. No fluff, no overviews — just pure, practical workflows, examples, and prompt patterns you can copy, tweak, and reuse.
+
+
+---
+
+1. Advanced Code Generation Techniques
+
+Comment-based scaffolding:
+
+// create a DAO layer for User entity
+
+// generate Service and Controller for Order
+
+
+Pseudocode → code:
+
+// if balance < 0, throw InsufficientFundsException
+
+
+Overloaded method generation:
+
+// generate overloads for fetchUser(String id), fetchUser(UUID id)
+
+
+Boilerplate automations:
+
+// generate equals and hashCode
+
+// create constructor using all fields
+
+// create DTO from User entity
+
+
+
+
+---
+
+2. Functional & Stream Conversion
+
+Convert legacy loops:
+
+// convert this for-loop to a stream
+
+
+Replace imperative logic:
+
+// rewrite using map/filter/reduce
+
+
+Prompt for readability:
+
+// show stream version and explain why it's more readable
+
+
+
+
+---
+
+3. Code Review Companion Techniques
+
+Inline assist for reviewers:
+
+// suggest improvements for readability
+
+// identify edge cases
+
+
+Diff explainers:
+
+// explain these changes in plain English
+
+
+Test coverage check:
+
+// highlight any missed test scenarios
+
+
+
+
+---
+
+4. Test Writing Accelerators
+
+From signature:
+
+// write JUnit5 tests for calculateInterest()
+
+
+Mockito pattern:
+
+// mock CustomerRepo and test createCustomer()
+
+
+Boundary testing:
+
+// add tests for credit score 299, 300, 850
+
+
+Template prompts:
+
+// generate parameterized tests for tax brackets
+
+
+
+
+---
+
+5. Live Error Resolution Techniques
+
+Paste errors + prompt:
+
+// how to fix this? NullPointerException at line 52
+
+
+Safer versions:
+
+// suggest null-safe rewrite
+
+// rewrite to avoid IndexOutOfBoundsException
+
+
+
+
+---
+
+6. JavaDocs & Internal Documentation
+
+Auto-generate docs:
+
+// generate JavaDoc for this method
+
+// summarize class behavior in 2 lines
+
+
+Onboarding help:
+
+// generate internal doc for new devs joining AuthService
+
+
+
+
+---
+
+7. Chat-Based Workflow Enhancements
+
+Use chat for:
+
+Explaining annotations (@Transactional, @Cacheable)
+
+Comparing libraries (log4j vs slf4j)
+
+Quick refreshers (difference between Mono and Flux)
+
+
+
+
+---
+
+8. Prompt Engineering Inside IntelliJ
+
+Prompt structures:
+
+// given this JSON, generate parsing logic
+
+// optimize this method for performance
+
+// convert this API call to WebClient
+
+
+Snippet reuse:
+
+Save to snippets or templates in IDE
+
+
+
+
+---
+
+9. Integration Shortcuts and UX Tips
+
+Keybindings:
+
+Bind “Ask Proxy AI” to shortcut (e.g., Ctrl+Alt+P)
+
+
+Trigger on comment prefix:
+
+Enable // prefix prompt hooks
+
+
+Right-click AI menu:
+
+Instant access via contextual actions
+
+
+
+
+---
+
+10. Daily Use Patterns to Adopt
+
+Start-of-day prompts:
+
+// generate setup code for Redis config
+
+
+POC scaffolding:
+
+// scaffold API to fetch invoices by month
+
+
+Pin chat for live coding assistance
+
+
+
+---
+
+20. JUnit & Mockito for Business Logic
+
+Real-world testing:
+
+// test discount for cart total > ₹5000
+
+// test user inactivity > 60 days for penalty
+
+
+Mock service behavior:
+
+// mock PaymentService and verify sendEmail()
+
+
+Param + edge testing:
+
+// use @ParameterizedTest for income tax slabs
+
+
+
+
+---
+
+21. Trivial but Cool Stuff
+
+Enum from comment:
+
+// generate enum: PENDING, APPROVED, REJECTED
+
+
+Random data:
+
+// generate fake Order with dummy values
+
+
+Explain anything:
+
+// what does CompletableFuture.supplyAsync do?
+
+
+Auto-form UI:
+
+// generate HTML form for AddressDTO
+
+
+
+
+---
+
+22. Lazy Dev Mode
+
+Instant CRUD layers:
+
+// generate controller + service + repo for Product
+
+
+Lazy configs:
+
+// generate application.properties for PostgreSQL
+
+
+Lazy testing:
+
+// write tests with Mockito for InvoiceService
+
+
+Lazy JavaDocs:
+
+// document this method with example usage
+
+
+Daily kick-off:
+
+// setup Mongo config and repository
+
+
+
+
+---
+
+23. IntelliJ Plugin Features to Supercharge Productivity
+
+Proxy AI features:
+
+Auto-trigger on comment
+
+Context-aware suggestions
+
+
+Top plug-ins:
+
+String Manipulation
+
+Key Promoter X
+
+SonarLint
+
+CodeGlance Pro
+
+
+Native features:
+
+Live Templates
+
+Structural Replace
+
+Postfix Completion
+
+
+
+
+---
+
+24. CodeGPT-Enhanced Customizations
+
+Preset prompts:
+
+// optimize and explain
+
+// convert to JUnit test
+
+
+Output styles:
+
+// use builder pattern with @Slf4j
+
+
+Refactor helpers:
+
+// rename method for clarity
+
+// split god class by responsibility
+
+
+Chat workflows:
+
+Drop ticket description + ask for class impact
+
+Explain diffs or write commit messages
+
+
+
+
+---
+
+Citations & Tools Referenced:
+
+Proxy AI IntelliJ Plugin
+
+CodeGPT Plugin
+
+SonarLint
+
+String Manipulation
+
+Key Promoter X
+
+Grep Console
+
+
+Proxy AI & CodeGPT Power Tips for IntelliJ Developers
+
+This article is a hands-on field guide for developers looking to amplify productivity inside IntelliJ IDEs using Proxy AI and CodeGPT. No fluff, no overviews — just pure, practical workflows, examples, and prompt patterns you can copy, tweak, and reuse.
+
+
+---
+
+1. Advanced Code Generation Techniques
+
+Comment-based scaffolding:
+
+// create a DAO layer for User entity
+
+// generate Service and Controller for Order
+
+
+Pseudocode → code:
+
+// if balance < 0, throw InsufficientFundsException
+
+
+Overloaded method generation:
+
+// generate overloads for fetchUser(String id), fetchUser(UUID id)
+
+
+Boilerplate automations:
+
+// generate equals and hashCode
+
+// create constructor using all fields
+
+// create DTO from User entity
+
+
+
+
+---
+
+2. Functional & Stream Conversion
+
+Convert legacy loops:
+
+// convert this for-loop to a stream
+
+
+Replace imperative logic:
+
+// rewrite using map/filter/reduce
+
+
+Prompt for readability:
+
+// show stream version and explain why it's more readable
+
+
+
+
+---
+
+3. Code Review Companion Techniques
+
+Inline assist for reviewers:
+
+// suggest improvements for readability
+
+// identify edge cases
+
+
+Diff explainers:
+
+// explain these changes in plain English
+
+
+Test coverage check:
+
+// highlight any missed test scenarios
+
+
+
+
+---
+
+4. Test Writing Accelerators
+
+From signature:
+
+// write JUnit5 tests for calculateInterest()
+
+
+Mockito pattern:
+
+// mock CustomerRepo and test createCustomer()
+
+
+Boundary testing:
+
+// add tests for credit score 299, 300, 850
+
+
+Template prompts:
+
+// generate parameterized tests for tax brackets
+
+
+
+
+---
+
+5. Live Error Resolution Techniques
+
+Paste errors + prompt:
+
+// how to fix this? NullPointerException at line 52
+
+
+Safer versions:
+
+// suggest null-safe rewrite
+
+// rewrite to avoid IndexOutOfBoundsException
+
+
+
+
+---
+
+6. JavaDocs & Internal Documentation
+
+Auto-generate docs:
+
+// generate JavaDoc for this method
+
+// summarize class behavior in 2 lines
+
+
+Onboarding help:
+
+// generate internal doc for new devs joining AuthService
+
+
+
+
+---
+
+7. Chat-Based Workflow Enhancements
+
+Use chat for:
+
+Explaining annotations (@Transactional, @Cacheable)
+
+Comparing libraries (log4j vs slf4j)
+
+Quick refreshers (difference between Mono and Flux)
+
+
+
+
+---
+
+8. Prompt Engineering Inside IntelliJ
+
+Prompt structures:
+
+// given this JSON, generate parsing logic
+
+// optimize this method for performance
+
+// convert this API call to WebClient
+
+
+Snippet reuse:
+
+Save to snippets or templates in IDE
+
+
+
+
+---
+
+9. Integration Shortcuts and UX Tips
+
+Keybindings:
+
+Bind “Ask Proxy AI” to shortcut (e.g., Ctrl+Alt+P)
+
+
+Trigger on comment prefix:
+
+Enable // prefix prompt hooks
+
+
+Right-click AI menu:
+
+Instant access via contextual actions
+
+
+
+
+---
+
+10. Daily Use Patterns to Adopt
+
+Start-of-day prompts:
+
+// generate setup code for Redis config
+
+
+POC scaffolding:
+
+// scaffold API to fetch invoices by month
+
+
+Pin chat for live coding assistance
+
+
+
+---
+
+20. JUnit & Mockito for Business Logic
+
+Real-world testing:
+
+// test discount for cart total > ₹5000
+
+// test user inactivity > 60 days for penalty
+
+
+Mock service behavior:
+
+// mock PaymentService and verify sendEmail()
+
+
+Param + edge testing:
+
+// use @ParameterizedTest for income tax slabs
+
+
+
+
+---
+
+21. Trivial but Cool Stuff
+
+Enum from comment:
+
+// generate enum: PENDING, APPROVED, REJECTED
+
+
+Random data:
+
+// generate fake Order with dummy values
+
+
+Explain anything:
+
+// what does CompletableFuture.supplyAsync do?
+
+
+Auto-form UI:
+
+// generate HTML form for AddressDTO
+
+
+
+
+---
+
+22. Lazy Dev Mode
+
+Instant CRUD layers:
+
+// generate controller + service + repo for Product
+
+
+Lazy configs:
+
+// generate application.properties for PostgreSQL
+
+
+Lazy testing:
+
+// write tests with Mockito for InvoiceService
+
+
+Lazy JavaDocs:
+
+// document this method with example usage
+
+
+Daily kick-off:
+
+// setup Mongo config and repository
+
+
+
+
+---
+
+23. IntelliJ Plugin Features to Supercharge Productivity
+
+Proxy AI features:
+
+Auto-trigger on comment
+
+Context-aware suggestions
+
+
+Top plug-ins:
+
+String Manipulation
+
+Key Promoter X
+
+SonarLint
+
+CodeGlance Pro
+
+
+Native features:
+
+Live Templates
+
+Structural Replace
+
+Postfix Completion
+
+
+
+
+---
+
+24. CodeGPT-Enhanced Customizations
+
+Preset prompts:
+
+// optimize and explain
+
+// convert to JUnit test
+
+
+Output styles:
+
+// use builder pattern with @Slf4j
+
+
+Refactor helpers:
+
+// rename method for clarity
+
+// split god class by responsibility
+
+
+Chat workflows:
+
+Drop ticket description + ask for class impact
+
+Explain diffs or write commit messages
+
+
+
+
+---
+
+Citations & Tools Referenced:
+
+Proxy AI IntelliJ Plugin
+
+CodeGPT Plugin
+
+SonarLint
+
+String Manipulation
+
+Key Promoter X
+
+Grep Console
+
+
