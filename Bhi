@@ -1,0 +1,715 @@
+Skip to content
+Open sidebar
+
+ChatGPT
+You said:
+Create a detailed Confluence Wiki page titled **“Proxy AI & LLM Power Tips for IntelliJ Developers”** focused entirely on hands-on techniques to improve daily workflows using Proxy AI in IntelliJ-based IDEs.
+ 
+Include only actionable, technical content. No overviews, conclusions, pros/cons, or marketing language.
+ 
+Organize the content using clear headers and bullet points. Each section should contain **practical tips, command patterns, examples, and prompt phrasing** developers can copy and use.
+ 
+### 1. **Advanced Code Generation Techniques**
+ 
+ 
+- Use comments like // create a DAO layer for User entity to scaffold classes
+ 
+- Convert pseudocode into real code by writing it as a comment
+ 
+- Prompt Proxy AI to generate overloaded method variants
+ 
+- Autogenerate boilerplate: equals/hashCode, constructors, DTOs, etc.
+ 
+
+ 
+### 2. **Functional & Stream Conversion**
+ 
+ 
+- Ask: // convert this for-loop to a stream
+ 
+- Replace imperative logic with functional constructs via prompt
+ 
+- Compare output side-by-side for readability gains
+ 
+
+ 
+### 3. **Code Review Companion Techniques**
+ 
+ 
+- // suggest improvements for readability above complex blocks
+ 
+- Use // identify edge cases to surface test gaps
+ 
+- Ask Proxy AI to explain PR changes during review
+ 
+
+ 
+### 4. **Test Writing Accelerators**
+ 
+ 
+- Generate JUnit or TestNG tests from method signatures
+ 
+- Prompt: // write tests for this using Mockito
+ 
+- Use // add boundary value test for edge case coverage
+ 
+
+ 
+### 5. **Live Error Resolution Techniques**
+ 
+ 
+- Paste exceptions with context; add // how to fix this?
+ 
+- Prompt: // suggest null-safe version or // rewrite to avoid IndexOutOfBoundsException
+ 
+
+ 
+### 6. **JavaDocs & Internal Documentation**
+ 
+ 
+- // generate JavaDoc above methods or interfaces
+ 
+- Ask Proxy AI to summarize class behavior in 2-3 lines
+ 
+- Use: // generate summary for onboarding for new team docs
+ 
+
+ 
+### 7. **Chat-Based Workflow Enhancements**
+ 
+ 
+- Use inline chat for: 
+ 
+  - Comparing library options (log4j vs slf4j)
+ 
+  - Explaining annotations (@Transactional)
+ 
+  - Quick conceptual refreshers (what is a CompletableFuture?)
+ 
+
+ 
+ 
+
+ 
+### 8. **Prompt Engineering Inside IntelliJ**
+ 
+ 
+- Create reusable prompt snippets like: 
+ 
+  - // given this JSON schema, generate parsing code
+ 
+  - // optimize this loop for performance
+ 
+  - // convert this REST call to WebClient
+ 
+
+ 
+ 
+- Structure prompts with clear intent and target result
+ 
+
+ 
+### 9. **Integration Shortcuts and UX Tips**
+ 
+ 
+- Bind shortcuts to “Ask Proxy AI” in IntelliJ for speed
+ 
+- Enable auto-trigger on comment prefix (//) to speed up prompting
+ 
+- Use Proxy AI’s contextual menu on right-click for instant suggestions
+ 
+
+ 
+### 10. **Daily Use Patterns to Adopt**
+ 
+ 
+- Start your day with TODOs like // generate setup code
+ 
+- Use Proxy AI to scaffold POCs or playgrounds
+ 
+- Keep Proxy AI chat pinned for ongoing Q&A while coding
+ 
+
+ 
+Include brief code snippets and prompt examples. Keep the tone practical, like something a peer developer would share during a team tech talk.
+ 
+  
+ChatGPT said:
+Here’s your detailed Confluence Wiki page content for “Proxy AI & LLM Power Tips for IntelliJ Developers”, written in a hands-on, developer-to-developer style:
+
+Proxy AI & LLM Power Tips for IntelliJ Developers
+Supercharge your IntelliJ workflow with Proxy AI. Below are copy-paste-ready prompt patterns and hands-on use cases designed for backend engineers.
+
+1. Advanced Code Generation Techniques
+Scaffold classes using intentful comments:
+
+// create a DAO layer for User entity
+Turn pseudocode into real code:
+
+// if user is inactive and lastLogin > 30 days, send email notification
+Generate overloaded methods:
+
+// create overloaded versions of this method with different params
+Auto-boilerplate generation:
+
+// generate equals and hashCode
+// create constructor using all fields
+// convert this POJO into a DTO
+2. Functional & Stream Conversion
+Imperative to functional:
+
+// convert this for-loop to a stream
+Ask for specific improvements:
+
+// refactor to use filter/map/collect
+Compare alternatives:
+
+// show both loop and stream version for comparison
+3. Code Review Companion Techniques
+Improve readability:
+
+// suggest improvements for readability
+Identify edge cases:
+
+// identify edge cases in this logic
+Explain PR logic:
+
+// explain what changed in this commit
+4. Test Writing Accelerators
+Generate test scaffolds:
+
+// write JUnit test for this method
+With mocks:
+
+// write tests for this using Mockito
+Enhance coverage:
+
+// add boundary value test cases
+5. Live Error Resolution Techniques
+Debug by context:
+
+// how to fix this? 
+Exception in thread "main" java.lang.NullPointerException...
+Safer alternatives:
+
+// suggest null-safe version
+// rewrite to avoid IndexOutOfBoundsException
+6. JavaDocs & Internal Documentation
+Auto-generate docs:
+
+// generate JavaDoc
+Summarize logic:
+
+// summarize behavior of this class in 2-3 lines
+Help onboarding:
+
+// generate summary for onboarding docs
+7. Chat-Based Workflow Enhancements
+Instant answers within code:
+
+// what's the difference between log4j and slf4j?
+// explain @Transactional annotation
+// what is a CompletableFuture?
+8. Prompt Engineering Inside IntelliJ
+Reusable prompt patterns:
+
+// given this JSON schema, generate parsing code
+// optimize this loop for performance
+// convert this REST call to WebClient
+Prompt structure tips:
+
+Use action + target + context
+
+Example: // generate method to fetch active users with pagination
+
+9. Integration Shortcuts and UX Tips
+Speed up prompting:
+
+Bind Cmd/Ctrl + Shift + A to "Ask Proxy AI"
+
+Enable comment-based triggers (//) in settings
+
+Contextual usage:
+
+Right-click → Ask Proxy AI on selected code
+
+10. Daily Use Patterns to Adopt
+Bootstrap code faster:
+
+// generate setup code for Kafka consumer
+Quick POCs:
+
+// scaffold a Spring Boot controller for user registration
+Persistent chat:
+
+Keep the Proxy AI panel docked for rapid Q&A
+
+Use it like a second pair of hands during debugging or refactoring
+
+Feel free to copy-paste these directly into your IntelliJ code comments or chat prompts. Power features, no fluff.
+
+Let me know if you'd like this exported as markdown or in Confluence format.
+
+You said:
+More cool stuff 
+ChatGPT said:
+Absolutely, here’s a bonus Power Add-ons section with more sharp, actionable tips that go beyond the basics — the kind of stuff that makes other devs go “wait, you can do that?!”
+
+11. Refactoring & Design Pattern Injections
+Introduce patterns effortlessly:
+
+// refactor this to use Strategy pattern
+// convert to Builder pattern
+// extract interface and implement Dependency Injection
+Layered refactoring:
+
+// split this into service, repository, and controller layers
+12. Data Transformation Shortcuts
+Schema/model conversion:
+
+// convert this JSON to Java class
+// map this SQL table to JPA entity
+Mapping layers:
+
+// generate mapper between UserEntity and UserDTO
+13. Real-Time Refactoring QA
+Safe modernization:
+
+// is there a more modern Java construct for this?
+// replace with Java 17+ feature if possible
+Spot anti-patterns:
+
+// are there any anti-patterns in this code?
+14. Codebase Navigation Boosters
+Class map summaries:
+
+// generate a high-level summary of class relationships
+Method footprint:
+
+// show where this method is being called
+15. Scripting and DevOps Support
+Shell command generation:
+
+// generate curl command for this REST API
+Git help:
+
+// write a git command to squash last 3 commits
+// explain what this rebase command does
+16. IntelliJ-Specific Prompt Hacks
+Intent tagging in comments for quick reuse:
+
+// @ai: optimize performance
+// @ai: generate test coverage
+Multi-block prompting:
+
+Select multiple methods or files, right-click → “Ask Proxy AI” to get holistic suggestions
+
+17. Low-Effort Tech Debt Cleanup
+Inline cleanup:
+
+// simplify this logic
+// remove unnecessary null checks
+// remove unused imports and dead code
+Consolidate logic:
+
+// merge duplicate methods across services
+18. Real-Time Project IQ
+Ask for project-wide insights:
+
+// list all REST endpoints in this project
+// find all usage of deprecated APIs
+// summarize the purpose of this module
+Let me know if you want a printable cheatsheet version or a way to integrate some of these prompts into your IDE templates. Want even more? I can generate advanced flows like "Code Review Copilot Mode" or "Bug Fix Sprint Helper".
+
+You said:
+Bug fix 
+ChatGPT said:
+Perfect — here’s a dedicated section you can plug into your Confluence page called:
+
+19. Bug Fix Sprint Helper Mode
+Use Proxy AI as your instant bug-fix teammate during intense debugging or bug bash sprints.
+
+Find, Fix, and Verify in Seconds
+Diagnose runtime exceptions:
+
+// here's the exception: java.lang.NumberFormatException... how do I fix it?
+Trace the root cause:
+
+// trace how this variable got its value
+Propose a fix:
+
+// rewrite this method to prevent division by zero
+Log-Driven Debugging Prompts
+Interpret logs:
+
+// these logs show unexpected behavior, what's going wrong?
+Suggest better logging:
+
+// add debug logs to trace execution flow
+Regression Proofing
+Generate regression tests:
+
+// write regression test for this fixed bug
+Create before/after scenarios:
+
+// show input/output before and after fix
+Defensive Programming Suggestions
+Add guard clauses:
+
+// add guard conditions to handle invalid inputs
+Fail-safe rewrites:
+
+// rewrite this to avoid NullPointerException and index issues
+Sprint-Speed Fix Workflow
+Paste the bug context:
+
+// bug: app crashes when user has no phone number
+Ask for minimal-impact fix:
+
+// patch this with least code changes
+Verify fix with tests:
+
+// generate a unit test that replicates this bug
+Request a hotfix commit message:
+
+// write a commit message for this hotfix
+Want a version of this as a fix-it checklist or bug template for your Jira/YouTrack/Trello flow? I can mock that up too.
+
+You said:
+Junit and Mockito business specific 
+ChatGPT said:
+Nice — let’s get laser-focused on business logic-specific testing with JUnit and Mockito. These prompts and patterns are built for real-world backend services, not just hello-world examples.
+
+20. JUnit & Mockito for Business Logic
+Supercharge test writing for domain-heavy apps (billing, accounts, user management, etc.) using Proxy AI.
+
+Domain-Oriented Test Prompts
+Direct business behavior testing:
+
+// write a JUnit test to verify discount is applied when cart total > ₹5000
+Validate decision logic:
+
+// write tests for applyPenalty() when user is inactive for 60+ days
+Edge case handling:
+
+// add boundary test for loan approval when credit score = 750
+Mockito-Specific Prompts for Complex Services
+Mock dependencies:
+
+// mock UserRepository and test UserService.createUser()
+Force exception paths:
+
+// test when repository throws DataIntegrityViolationException
+Verify interactions:
+
+// verify that sendEmail() is called after successful payment
+Multi-Layer Test Coverage
+Service to repo mock chain:
+
+// mock ProductRepository and test getAvailableStock() in InventoryService
+DTO ↔ Entity mapping logic:
+
+// test conversion from OrderDTO to OrderEntity
+Advanced Scenarios
+Time-based logic:
+
+// test subscription expiry logic when current date is 30 days after start
+State transitions:
+
+// write a test to verify user status changes from PENDING to ACTIVE on verification
+Chained behavior testing:
+
+// mock saveOrder() and sendInvoice() and test full placeOrder() method
+Batch Testing Tips
+Parameterized tests:
+
+// use @ParameterizedTest to test calculateTax() with different slabs
+Test template generation:
+
+// generate JUnit5 test template for PaymentService
+Prompt Pro Tip: Business-Context Tags
+Add domain keywords in your prompts to guide AI:
+
+Good:
+
+// write tests for calculatePremium() in an insurance app
+Even better:
+
+// write JUnit test for calculatePremium(age, smokerStatus) with mock RiskProfileService
+Want help generating test cases for your real methods or mocking database behavior for integration tests? Just drop a method signature or business scenario.
+
+You said:
+Cool stuff trival 
+ChatGPT said:
+Heh, you want the trivial-but-cool stuff — the little Proxy AI tricks that feel like cheating but totally aren’t. Here's your "dev joy" section:
+
+21. Trivial but Cool Stuff (That Actually Slaps)
+Tiny wins that stack up over hundreds of keystrokes.
+
+One-Liners That Save Minutes
+Autogenerate Enums:
+
+// generate enum for user roles: ADMIN, MODERATOR, CUSTOMER
+Autocomplete switch blocks:
+
+// create switch statement for OrderStatus enum
+Random data generators:
+
+// generate random Order object with fake data
+Comment Magic Tricks
+Comment → test:
+
+// if cart has more than 3 items, apply 10% discount
+Comment → doc:
+
+// document this method for API consumers
+Comment → logging:
+
+// add debug log before and after db call
+UI Elements from Models
+Generate HTML from DTO:
+
+// generate HTML form from UserDTO
+Generate React props:
+
+// create React prop types for this POJO
+Time Travel Mode
+Code explanation with year context:
+
+// explain how this would be written in Java 8 vs Java 21
+Legacy code converter:
+
+// convert this Java 6 code to modern Java
+Brain Offloaders
+Rename suggestion:
+
+// suggest better name for method: processData()
+Shortcuts for mental blanks:
+
+// what's that method to sort a list in reverse in Java again?
+"Feeling Lazy" Snippets
+Lazy config:
+
+// generate application.properties for MySQL + Spring Boot
+Lazy init:
+
+// stub out a Kafka listener for topic "user.created"
+Lazy repo:
+
+// create a Spring Data JPA repo for InvoiceEntity
+Need a “lazy dev mode” cheat card or a keyboard shortcut trigger to sprinkle these throughout your workday? I can help automate that too.
+
+You said:
+Lazy dev
+ChatGPT said:
+Oh you’re speaking the true language now — Lazy Dev Mode. Here's your full-blown, plug-and-play Confluence section for when you just want to get things working fast without compromising sanity.
+
+22. Lazy Dev Mode — Maximum Output, Minimum Effort
+When you’re too tired to scaffold manually, let Proxy AI carry your sprint.
+
+Lazy Layer Generator
+Just drop the entity name:
+
+// generate controller, service, repository for Payment entity
+Add one liner:
+
+// create full CRUD layer for Product with validation and exception handling
+Lazy Spring Boot Everything
+One-shot project init:
+
+// generate Spring Boot app with Web, JPA, MySQL, and Lombok
+Auto-configs:
+
+// generate application.properties for PostgreSQL on port 5432
+Lazy exceptions:
+
+// create custom exception and handler for InvalidOrderException
+Lazy API Scaffolding
+Just say what you want:
+
+// create REST endpoint to fetch invoice by ID
+Or go broader:
+
+// scaffold REST API for user registration and login
+Lazy Testing Mode
+You don’t want to write tests? AI does.
+
+// write unit tests for PaymentService using Mockito
+// generate integration test for OrderController
+Also works for “just test this flow”:
+
+// test happy path and failure path for applyDiscount()
+Lazy Docs & JavaDocs
+Minimal effort docs:
+
+// generate JavaDocs for all methods in this class
+Onboard others with 1 line:
+
+// generate onboarding doc for AuthService
+Lazy Naming, Mapping, Refactoring
+Naming help:
+
+// suggest a better name for variable: tempResult
+Mappers without pain:
+
+// generate MapStruct mapper for UserDTO and UserEntity
+Lazy Dev Day Starters
+Kickstart with context:
+
+// generate setup code for MongoDB repository
+Reminder-style prompts:
+
+// generate config + test for S3 file upload
+Create playgrounds:
+
+// scaffold main method to test OrderService manually
+Ultra Lazy Pro Tips
+Keep a “lazy snippets” file with prompt comments like:
+
+// @lazy: write repo test
+// @lazy: generate JSON schema from this DTO
+Bind Ask Proxy AI to Alt+P or something dumb-easy.
+
+Comment everything when you’re too tired to think. Let Proxy AI guess:
+
+// fix this mess
+// make this work
+// what the hell is going wrong here?
+Want a “Lazy Dev Toolbar” inside IntelliJ with buttons for these? I can spec it out or even help build a plugin version.
+
+You said:
+Plug-in features i could beter work productive
+ChatGPT said:
+Alright, here's a killer section for your Confluence page titled:
+
+23. IntelliJ Plug-In Features to Supercharge Productivity
+Forget the defaults — here’s how to turn IntelliJ into your personal code factory using built-in + 3rd-party plug-in features that play well with Proxy AI.
+
+A. Proxy AI-Specific Enhancements
+Comment-Triggered Prompts
+
+Auto-launch Proxy AI on // or // @ai: comments
+
+Example:
+
+// @ai: generate DTO for this entity
+Right-Click Shortcuts
+
+Enable Proxy AI in context menu for classes, methods, and selections
+
+Use it to ask:
+
+// suggest optimization for this method
+Prompt Templates
+
+Save frequently used prompts like:
+
+// convert to reactive code
+
+// mock this service for testing
+
+B. Built-in IntelliJ Productivity Features (You Should Actually Use)
+Live Templates
+
+Type testmeth → expands to a full JUnit test method
+
+Make your own like:
+
+//lazyrepo → public interface $ENTITY$Repository extends JpaRepository<$ENTITY$, Long> {}
+Structural Search and Replace
+
+Refactor patterns at scale (e.g., replace all .get(i) with .getFirst() for queues)
+
+Postfix Completion
+
+Type list.for → auto expands to enhanced for-loop
+
+Type optional.or → expands to .orElse(...)
+
+C. Plug-ins for Workflow Efficiency
+1. String Manipulation
+Instantly convert snake_case <-> camelCase, encode/decode JSON, sort lines, etc.
+
+2. Key Promoter X
+Shows keyboard shortcuts when you use the mouse — forces you to learn hotkeys like a boss.
+
+3. Presentation Assistant
+Displays shortcut used at the bottom of the screen (great for learning or pair coding)
+
+4. Rainbow Brackets
+Just makes nested code readable without melting your brain.
+
+5. SonarLint
+Inline code quality checker — flags bugs, bad practices in real-time.
+
+6. Grep Console
+Enhances your run/debug console: color-coding logs, filtering by regex, etc.
+
+7. Lombok
+Avoid writing boilerplate — pair with Proxy AI to generate even more concise models.
+
+D. Bonus Lazy Plug-ins
+CodeGlance Pro
+
+Mini-map like VS Code — great for scanning large files visually.
+
+CSV Plugin
+
+Edit, sort, and view CSV files like a spreadsheet inside IntelliJ.
+
+CamelCase
+
+Quick conversions between snake_case, kebab-case, camelCase, etc.
+
+E. Pro Tip: Combine with Proxy AI
+Try:
+
+// list all places where this method is called and if any are redundant
+Right-click → Ask Proxy AI → Boom.
+
+Want a pre-bundled IntelliJ profile with all these installed + your favorite AI snippets baked in? I can help script that setup too.
+
+You said:
+Codegpt enhanced customization improve productive 
+ChatGPT said:
+Boom, you’re diving deep now. Let’s build a section focused on CodeGPT-enhanced customizations inside IntelliJ to make you a productivity assassin. These aren't just surface-level tips — this is power-user territory.
+
+24. CodeGPT-Enhanced Customizations for Productivity Boost
+Turn CodeGPT into your on-demand dev buddy with tweaks, workflows, and personalized prompts.
+
+A. Custom Prompt Presets (Your Secret Weapon)
+Create tailored prompts for frequently needed actions, so you never type them twice.
+
+Example: Optimize & Explain
+
+// optimize this method for performance and explain the changes
+Example: Convert to Test
+
+// generate JUnit test with Mockito for this business logic
+Example: Legacy → Modern
+
+// refactor this Java 6-style code to use Java 17 features
+How to Use:
+Go to Settings → CodeGPT → Prompt Presets, and add your own templates.
+
+B. Scope-Aware Prompting
+Leverage CodeGPT’s context awareness for targeted help:
+
+Class-wide prompt: Select entire class → // refactor this class for SOLID principles
+
+Method-level precision: Highlight one method → // add error handling and log statements
+
+Pro Tip: Bind this to a key combo like Ctrl+Alt+G for instant fire.
+
+C. Chat Mode Productivity Workflows
+Use CodeGPT’s chat tab like a permanent second brain:
+
+Session-based dev:
+
+Drop the ticket description in chat
+
+Ask: what classes might need to change to implement this feature?
+
+Inline idea generation:
+
+// give me 3 naming options for
